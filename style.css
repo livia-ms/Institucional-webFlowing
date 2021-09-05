@@ -1,0 +1,151 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 10em;
+}
+
+/* body */
+
+body,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  color: #7f7f7f;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background: black;
+}
+
+/* header */
+.name {
+  width: 12em;
+  margin: auto;
+}
+
+.wf {
+  margin: auto;
+  width: 20em;
+}
+
+.wf-logo {
+  margin-bottom: 12px;
+  margin-left: 5em;
+}
+
+.info {
+  color: #d60c27;
+}
+
+/* linha */
+
+.linha {
+  width: 75em;
+}
+
+/* logo */
+
+.logo-mobile {
+  width: 2.5em;
+}
+
+/* menu */
+/* nav {
+  /* width: 10em; */
+/* height: 15em; */
+/* position: fixed; */
+/* padding: 10px; */
+/* z-index: 1;
+  overflow: auto;
+  transition: background .3s; */
+/* } */
+
+/* nav ul {
+  list-style-type: none;
+  padding: 0;
+} */
+
+/* nav ul li a {
+  color: #FFF;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+} */
+
+.nav-menu:hover {
+  color: #7f7f7f;
+}
+
+#main {
+  margin-left: 120px;
+}
+
+/* color's */
+
+span,
+.color {
+  color: #d60c27;
+}
+
+/* footer */
+
+.end-footer {
+  background-color: #1a1919;
+}
+
+.footer {
+  margin-left: 35em;
+}
+
+.logo-footer {
+  height: 2.5em;
+  margin: 2em;
+}
+
+.color-fot:hover {
+  color: #d60c27;
+}
+
+/* @media only screen and (max-width: 600px) {
+  #main {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 600px) and (min-width: 880px) {
+  .wf-logo {
+    height: 550px;
+    width: 500px;
+  }
+  
+  nav {
+    display: block;
+  }
+}
+@media (max-width: 992px) {
+  .{
+    display: none;
+  }
+  . {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  . {
+    max-width: 100%;
+  }
+} */
